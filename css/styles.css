@@ -4,13 +4,15 @@
 header{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     align-items: center;
 }
 .left img{
     width: 100px;
     height: 100px;
 }
-.right{
-    
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 300px;
 }
