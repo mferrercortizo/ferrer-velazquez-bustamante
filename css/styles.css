@@ -16,3 +16,6 @@ ul{
     justify-content: space-between;
     width: 300px;
 }
+a{
+    text-decoration: none;
+}
