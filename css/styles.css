@@ -52,3 +52,17 @@ ul{
     width: 100%;
     height: 350px;
 }
+
+.productoscategoria{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.seccioncategoria{
+    width: 90%;
+}
+
+.articuloscategoria{
+    width: 27%;
+    margin: 1%;
+}
