@@ -23,35 +23,36 @@
         </nav>
     </header>
 
-    <main>
-        <form action="./login.html" method="get">
-            <div>
-                <label>Email</label>
-                <input type="email" name="emailUsuario">
-            </div>
-            <div>
-                <label>Contraseña</label>
-                <input type="password" name="contraseñaUsuario">
-            </div>
-            <div>
-                <label>Repetir contraseña</label>
-                <input type="password" name="contraseñaRepetidaUsuario">
-            </div>
-            <!--No se cómo vincular las contraseñas, después lo vemos cuando expliquen-->
-            <div>
-                <label>
-                    <input type="checkbox" name="aceptar" required>Acepto los términos y condiciones
-                </label>
-            </div>
-            
-            <button type="submit">Registrarme</button>
-        </form>
+    <main class="registermain">
+        <div class="formcontainer">
+            <form action="./login.html" method="get">
+                <div>
+                    <label>Email</label>
+                    <input type="email" name="emailUsuario">
+                </div>
+                <div>
+                    <label>Contraseña</label>
+                    <input type="password" name="contraseñaUsuario">
+                </div>
+                <div>
+                    <label>Repetir contraseña</label>
+                    <input type="password" name="contraseñaRepetidaUsuario">
+                </div>
+                <div>
+                    <label>
+                        <input type="checkbox" name="aceptar" required>Acepto los términos y condiciones
+                    </label>
+                </div>
+                
+                <button type="submit">Registrarme</button>
+            </form>
 
-        <section>
-            <article>
-                <a href="./login.html">Ya tengo una cuenta</a>
-            </article>
-        </section>
+            <section>
+                <article>
+                    <a href="./login.html">Ya tengo una cuenta</a>
+                </article>
+            </section>
+        </div>
     </main>
 
     <footer>
