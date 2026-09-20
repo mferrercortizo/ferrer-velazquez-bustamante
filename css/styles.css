@@ -74,7 +74,9 @@ ul{
     justify-content: center;
     padding: 40px 20px;
 }
-
+.log-reg{
+    margin: 10px;
+}
 .loginmain{
     display: flex;
     flex-direction: column;
@@ -83,6 +85,7 @@ ul{
     padding: 40px 20px;
 
 }
+
 
 .formcontainer {
     background-color: #f5f5f5;
