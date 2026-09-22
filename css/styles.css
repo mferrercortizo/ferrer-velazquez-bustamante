@@ -16,6 +16,17 @@ header{
     justify-content: space-between;
     width: 300px;
 }
+
+.center{
+    padding: 20px;
+    width: auto;
+    background-color: grey;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
 a{
     text-decoration: none;
     color: black;
@@ -27,11 +38,23 @@ main{
     background-color: grey;
     width: 10%;
     padding: 15px;
+    border-radius: 15px;
+
 }
 .columna ul{
     display: flex;
     flex-direction: column;
     list-style-type: none;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.columna ul li{
+    margin-bottom: 15px;
+}
+
+.columna ul a{
+font-size: 20px;
 }
 ul{
     padding:0px;
@@ -39,6 +62,23 @@ ul{
 .secciones{
     width: 90%;
 }
+
+.banner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.imagen{
+    height: 500px;
+    width: 100%;
+    margin: 1%;
+}
+
+.titulo{
+    margin-left: 1%;
+}
+
 .vendidos{
     display: flex;
     flex-wrap: wrap;
@@ -51,6 +91,16 @@ ul{
 .productos{
     width: 100%;
     height: 350px;
+}
+
+.boton{
+    background-color: black;
+    color: #f5f5f5;
+    padding: 10px;
+}
+
+.section1{
+    margin-bottom: 60px;
 }
 
 .seccioncategoria{
@@ -105,7 +155,6 @@ ul{
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 40px;
 }
 
 .sectionproducto article img {
