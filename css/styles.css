@@ -157,7 +157,11 @@ ul {
 }
 
 .log-reg {
-    margin: 10px;
+    width: 100%;
+    padding: 10px 15px;
+    border: solid;
+    border-radius: 999px;
+    margin: 15px 0px 15px 0px;
 }
 
 .loginmain {
@@ -183,6 +187,26 @@ ul {
 
 .formcontainer section {
     text-align: center;
+}
+
+.formcontainer label {
+    font-size: 15px;
+}
+
+.formcontainer button {
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: #f5f5f5;
+    font-weight: bold;
+    border-radius: 999px;
+    margin-top: 15px;
+}
+
+.formcontainer section a {
+    font-size: 15px;
+    font-weight: normal;
+    color: grey;
 }
 
 .sectionproducto {
@@ -310,4 +334,8 @@ body {
 
 .infoproducto {
     width: 40%;
+}
+.formcontainer h2 {
+    text-align: center;
+    margin-top: 0px;
 }
