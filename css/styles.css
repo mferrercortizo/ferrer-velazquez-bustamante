@@ -58,10 +58,11 @@ main {
 
 .columna {
     background-color: grey;
-    width: 10%;
+    width: 12%;
     padding: 15px;
     border-radius: 15px;
     margin-top: 1%;
+    align-self: flex-start;
 
 }
 
@@ -71,6 +72,8 @@ main {
     list-style-type: none;
     justify-content: flex-start;
     height: 100%;
+    margin: 0;
+
 }
 
 .columna ul li {
@@ -78,7 +81,10 @@ main {
 }
 
 .columna ul a {
-    font-size: 20px;
+    font-size: 17px;
+    font-weight: normal;
+    color: black;
+
 }
 
 ul {
@@ -86,7 +92,7 @@ ul {
 }
 
 .secciones {
-    width: 90%;
+    width: 88%;
 }
 
 .banner {
