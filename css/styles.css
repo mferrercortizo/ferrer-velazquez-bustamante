@@ -6,6 +6,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #f5f5f5;
+    margin-right: 1%;
 }
 
 .left img {
@@ -27,12 +29,26 @@ header ul {
     border-radius: 999px;
     display: flex;
     justify-content: center;
+    
+}
+.listainicio a {
+    padding: 8px 20px;
+    background-color: grey;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: bold;
+    
 
+}
+
+.right {
+    margin-right: 1%;
 }
 
 a {
     text-decoration: none;
     color: black;
+    font-weight: bold;
 }
 
 main {
@@ -45,6 +61,7 @@ main {
     width: 10%;
     padding: 15px;
     border-radius: 15px;
+    margin-top: 1%;
 
 }
 
@@ -185,19 +202,6 @@ body {
     padding: 8px 8px 0px 8px;
 }
 
-.listainicio a {
-    padding: 8px 20px;
-    background-color: #f5f5f5;
-    border-radius: 999px;
-    font-size: 12px;
-    font-weight: bold;
-    
-
-}
-
-.right {
-    margin-right: 1%;
-}
 
 .pie {
     display: flex;
