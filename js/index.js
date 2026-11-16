@@ -1,4 +1,5 @@
-console.log("javascript");
+let primeraSeccion = document.querySelector("#categoria-uno");
+let segundaSeccion = document.querySelector("#categoria-dos");
 
 let endpoint = "https://dummyjson.com/products";
 
