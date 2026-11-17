@@ -7,10 +7,10 @@ let mensajeError = document.querySelector(".error-buscador")
 formulario.addEventListener("submit", function(event){
     event.preventDefault();
     if (campoBusqueda.value == ""){
-        mensajeError.innerText = "El campo de busqueda no puede estar vacio."
+        alert("El campo de busqueda no puede estar vacio.");
 
     } else if (campoBusqueda.value.length < 3){ 
-        mensajeError.innerText = "La busqueda debe contener al menos 3 caracteres.";
+        alert("La busqueda debe contener al menos 3 caracteres.");
     } else{
         this.submit();
     }
