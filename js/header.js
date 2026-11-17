@@ -1,8 +1,7 @@
 //verificacion del form del header
-//primero capturo el form, el input y el mensaje de errror. 
+//primero capturo el form, el input 
 let formulario = document.querySelector(".center form");
 let campoBusqueda = document.querySelector(".campoBusqueda");
-let mensajeError = document.querySelector(".error-buscador")
 //hago la validacion 
 formulario.addEventListener("submit", function(event){
     event.preventDefault();
