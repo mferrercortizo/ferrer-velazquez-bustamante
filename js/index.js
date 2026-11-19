@@ -5,10 +5,10 @@ let endpointUno = "https://dummyjson.com/products/category/sports-accessories";
 let endpointDos = "https://dummyjson.com/products/category/mobile-accessories";
 
 fetch(endpointUno)
-    .then(function (res) {
+    .then(function(res) {
         return res.json();
     })
-    .then(function (data) {
+    .then(function(data) {
         let productos = data.products;
         let tarjetas = "";
         for (let i = 0; i < productos.length; i++) {
@@ -24,15 +24,15 @@ fetch(endpointUno)
 
         primeraSeccion.innerHTML = tarjetas;
     })
-    .catch(function (e) {
+    .catch(function(e) {
         console.log("Error: " + e);
     });
 
     fetch(endpointDos)
-    .then(function (res) {
+    .then(function(res) {
         return res.json();
     })
-    .then(function (data) {
+    .then(function(data) {
         let productos = data.products;
         let tarjetas = "";
         for (let i = 0; i < productos.length; i++) {
@@ -48,6 +48,6 @@ fetch(endpointUno)
 
         segundaSeccion.innerHTML = tarjetas;
     })
-    .catch(function (e) {
+    .catch(function(e) {
         console.log("Error: " + e);
     });

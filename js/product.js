@@ -31,7 +31,7 @@ fetch(endpoint)
             marca.innerText = `Marca: ${data.brand}`;
         }
 
-        categoria.innerHTML = `Categoría: <a href="./category.html?categoria=${data.category}">${data.category}</a>`;
+        categoria.innerHTML = `Categoría: <a href="./category.html?category=${data.category}">${data.category}</a>`;
 
         let tags = "";
         for (let i = 0; i < data.tags.length; i++) {
