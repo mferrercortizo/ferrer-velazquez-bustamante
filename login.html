@@ -40,18 +40,19 @@
             <form action="./index.html" method="get">
                 <div>
                     <label>Email</label>
-                    <input class="log-reg" type="email" name="emailUsuario">
+                    <input class="log-reg" id="email-login" type="email" name="emailUsuario">
                 </div>
                 <div>
                     <label>Contraseña</label>
-                    <input class="log-reg" type="password" name="contraseñaUsuario">
+                    <input class="log-reg" id="password-login" type="password" name="contraseñaUsuario">
                 </div>
+                <p id="error-login"></p>
                 <button type="submit">Ingresar</button>
             </form>
 
             <section>
                 <article>
-                    <a href="./register.html">¿No tenes cuenta?</a>
+                    <a href="./register.html">No tengo cuenta</a>
                 </article>
             </section>
         </div>
@@ -71,6 +72,7 @@
 
         </div>
     </footer>
+    <script src="./js/login.js"></script>
     <script src="./js/header.js"></script>
 </body>
 
