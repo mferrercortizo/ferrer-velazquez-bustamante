@@ -40,22 +40,22 @@
             <form action="./login.html" method="get">
                 <div>
                     <label>Email</label>
-                    <input class="log-reg" type="email" name="emailUsuario">
+                    <input class="log-reg" id="email-registro" type="email">
                 </div>
                 <div>
                     <label>Contraseña</label>
-                    <input class="log-reg" type="password" name="contraseñaUsuario">
+                    <input class="log-reg" id="password-registro" type="password">
                 </div>
                 <div>
                     <label>Repetir contraseña</label>
-                    <input class="log-reg" type="password" name="contraseñaRepetidaUsuario">
+                    <input class="log-reg" id="password-repetida" type="password">
                 </div>
                 <div>
                     <label>
-                        <input class="check" type="checkbox" name="aceptar" required>Acepto los términos y condiciones
+                        <input class="check" type="checkbox" required>Acepto los términos y condiciones
                     </label>
                 </div>
-
+                <p id="error-registro"></p>
                 <button type="submit">Registrarme</button>
             </form>
 
@@ -83,7 +83,8 @@
     </footer>
     <script src="./js/header.js"></script>
     <script src="./js/saludo.js"></script>
-
+    <script src="./js/logout.js"></script>
+    <script src="./js/register.js"></script>
 </body>
 
 </html>
