@@ -5,6 +5,6 @@ itemLogout.addEventListener("click", function(event) {
 
     itemSaludo.style.display = "none";
     itemLogout.style.display = "none";
-    itemLogin.style.display = "";
-    itemRegistro.style.display = "";
+    itemLogin.style.display = "block";
+    itemRegistro.style.display = "block";
 });

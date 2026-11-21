@@ -5,20 +5,20 @@ let category = queryStringObj.get("category");
 let titulo = document.querySelector("#titulo-categoria");
 let listaProductos = document.querySelector("#lista-productos");
 
-titulo.innerText = "Resultados para la categoría : " + category;
+titulo.innerText = "Resultados para la categoría: " + category;
 
 let endpoint = `https://dummyjson.com/products/category/${category}`;
 
 fetch(endpoint)
-    .then(function(res){
+    .then(function (res) {
         return res.json();
     })
-    .then(function(data){
-        let productos=data.products;
+    .then(function (data) {
+        let productos = data.products;
         let tarjetas = "";
-        for(let i = 0; i < productos.length; i++){
+        for (let i = 0; i < productos.length; i++) {
             tarjetas += `
-                 <article class="articulos">
+                <article class="articulos">
                     <img class="productos" src="${productos[i].thumbnail}" alt="${productos[i].title}">
                     <h3>${productos[i].title}</h3>
                     <p>${productos[i].description}</p>
@@ -29,6 +29,6 @@ fetch(endpoint)
 
         listaProductos.innerHTML = tarjetas;
     })
-    .catch(function(e){
+    .catch(function (e) {
         console.log("Error: " + e);
     });
